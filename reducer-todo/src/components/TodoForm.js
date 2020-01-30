@@ -36,7 +36,7 @@ const TodoForm = () => {
                     onChange={handleChange}
                 ></input>
                 <button onClick={handleSubmit}>Add</button>
-                <button onClick={handleClear}>Delete</button>
+                <button onClick={handleClear}>Clear Completed</button>
             </form>
             <Todo id={state.id} todo={todo} dispatch={dispatch} state={state} />
 

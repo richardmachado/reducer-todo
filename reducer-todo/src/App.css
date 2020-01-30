@@ -1,9 +1,10 @@
 body {
   
   
-  background-image: url("https://images.unsplash.com/photo-1554325139-bbd006cd3e5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80") 
-  ;
+  background-image: url("./background.jpeg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100em;
 
   
 }
@@ -19,6 +20,7 @@ body {
 
 .form{
   margin: 10%;
+ 
 }
 
 .todoArea{
@@ -34,7 +36,7 @@ body {
   border: solid black 2px;
   color:black;
   font-size: 1vw;
-  background-color: rgb(95, 142, 217);
+  background-color: oldlace;
   padding: 1%;
   
 }
