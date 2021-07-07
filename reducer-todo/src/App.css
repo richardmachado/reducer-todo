@@ -1,0 +1,42 @@
+body {
+  
+  
+  background-image: url("./background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100em;
+
+  
+}
+.App {
+  text-align: center;
+  
+}
+
+.completed{
+  text-decoration: line-through;
+
+}
+
+.form{
+  margin: 10%;
+ 
+}
+
+.todoArea{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.todo{
+  width: 10vw;
+  height: 5vw;
+  margin: 2%;
+  border: solid black 2px;
+  color:black;
+  font-size: 1vw;
+  background-color: oldlace;
+  padding: 1%;
+  
+}
